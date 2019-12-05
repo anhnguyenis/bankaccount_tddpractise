@@ -7,7 +7,7 @@ describe BankAccount do
     expect(bank.balance).to eq(5)
   end
 
-  it 'opens a bank account with an initial balance of zero' do
+  it 'opens a bank account with an initial balance of 50' do
     bank = BankAccount.new
     expect(bank.balance).to eq(0)
   end
